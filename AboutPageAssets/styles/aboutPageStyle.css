@@ -8,7 +8,18 @@
 	--DarkAccent: #637ca7;
 	--DarkShaedes: #262e38;
 }
+/* Style for all anchor tags (<a>) */
+a {
+  color: #007bff; /* Example: Blue color */
+  text-decoration: none; /* Remove the default underline */
+  transition: color 0.3s ease; /* Add a smooth transition for hover effect */
+}
 
+/* Style for when the mouse hovers over a link */
+a:hover {
+  color: #0056b3; /* Example: Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover for visual feedback */
+}
 
 html {
     scroll-behavior: smooth;
